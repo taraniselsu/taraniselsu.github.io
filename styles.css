@@ -33,6 +33,26 @@ footer {
 .play:hover, .play:active {
   background-color: darkgreen;
 }
+.play-on-itch {
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  background-color: #fa5c5c;
+  color: #eeeeee;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.source {
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  background-color: #202020;
+  color: #eeeeee;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 .coverimage {
   width: 250px;
   height: 200px;
@@ -44,7 +64,11 @@ footer {
   clear: both;
   display: table;
 }
+.icon {
+  width: 64px;
+  height: 64px;
+}
 
-/* * {
+/*  * {
   border: 2px solid black;
 } */
