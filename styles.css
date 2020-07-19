@@ -36,6 +36,7 @@ footer {
   background-color: #333333;
   margin: 5px;
   padding: 8px;
+  flex: 1 0 auto;
 }
 .coverimage {
   width: 250px;
@@ -44,9 +45,10 @@ footer {
   margin: auto;
 }
 .gamedescription {
-  width: 300px;
+  width: 310px;
   padding-left: 10px;
   margin: auto;
+  flex: 1 0 auto;
 }
 
 .gamename {
