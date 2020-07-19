@@ -1,18 +1,16 @@
 body {
-  background-color: #111111;
-  color: #DDDDDD;
+  background-color: #222222;
+  color: #dddddd;
+}
+a:link, a:visited {
+  color: #ffffff;
+}
+a:hover, a:active {
+  color: #dddddd;
 }
 footer {
   margin-top: 3cm;
 }
-a:link, a:visited {
-  color: white;
-}
-a:hover, a:active {
-  color: red;
-}
-
-
 .title {
   text-align: center;
   font-weight: bold;
@@ -25,63 +23,62 @@ a:hover, a:active {
   font-size: 150%;
   margin-top: 0px;
 }
+
+.gamescontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .gamecontainer {
-  display: inline-block;
-  background-color: #444444;
-  margin: 20px;
-  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  background-color: #333333;
+  margin: 5px;
+  padding: 8px;
 }
 .coverimage {
   width: 250px;
   height: 200px;
+  vertical-align: middle;
+  margin: auto;
 }
 .gamedescription {
-  display: inline-block;
-  vertical-align: top;
-  /* max-width: 300px; */
   width: 300px;
+  padding-left: 10px;
+  margin: auto;
 }
+
 .gamename {
   margin-top: 0px;
 }
-.play:link, .play:visited {
+
+[class*="button-"] {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.button-play {
   background-color: green;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
 }
-.play:hover, .play:active {
-  background-color: darkgreen;
-}
-.play-on-itch {
-  border: none;
-  border-radius: 4px;
-  padding: 16px 32px;
+.button-playonitch {
   background-color: #fa5c5c;
-  color: #eeeeee;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
 }
-.source {
-  border: none;
-  border-radius: 4px;
-  padding: 16px 32px;
+.button-source {
   background-color: #202020;
-  color: #eeeeee;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
 }
+
 .linkicon {
   width: 64px;
   height: 64px;
 }
+.nobottommargin {
+  margin-bottom: 0px;
+}
 
-/* * {
-  border: 2px solid black;
-} */
+* {
+  /* border: 1px dashed white; */
+}
