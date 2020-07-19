@@ -74,6 +74,8 @@ footer {
 .linkicon {
   width: 64px;
   height: 64px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .nobottommargin {
   margin-bottom: 0px;
