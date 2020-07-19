@@ -1,13 +1,18 @@
 body {
-  /* background-color: #202020; */
-  /* color: #B0B0B0; */
-}
-div {
-  margin-bottom: 16px;
+  background-color: #111111;
+  color: #DDDDDD;
 }
 footer {
   margin-top: 3cm;
 }
+a:link, a:visited {
+  color: white;
+}
+a:hover, a:active {
+  color: red;
+}
+
+
 .title {
   text-align: center;
   font-weight: bold;
@@ -18,6 +23,25 @@ footer {
   text-align: center;
   font-weight: bold;
   font-size: 150%;
+  margin-top: 0px;
+}
+.gamecontainer {
+  display: inline-block;
+  background-color: #444444;
+  margin: 20px;
+  padding: 5px;
+}
+.coverimage {
+  width: 250px;
+  height: 200px;
+}
+.gamedescription {
+  display: inline-block;
+  vertical-align: top;
+  /* max-width: 300px; */
+  width: 300px;
+}
+.gamename {
   margin-top: 0px;
 }
 .play:link, .play:visited {
@@ -53,22 +77,11 @@ footer {
   text-decoration: none;
   display: inline-block;
 }
-.coverimage {
-  width: 250px;
-  height: 200px;
-  float: left;
-  margin-right: 10px;
-}
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.icon {
+.linkicon {
   width: 64px;
   height: 64px;
 }
 
-/*  * {
+/* * {
   border: 2px solid black;
 } */
