@@ -1,6 +1,6 @@
 All Rights Reserved
 
-Copyright (c) 2020 Taranis Elsu
+Copyright (c) 2023 Taranis Elsu
 
 Copying, modifying, publishing, distributing, sublicensing, and/or selling
 copies of the software is expressly PROHIBITED without prior permission
