@@ -2,6 +2,9 @@ body {
   background-color: #222222;
   color: #dddddd;
 }
+p {
+  font-family: sans-serif;
+}
 a:link, a:visited {
   color: #ffffff;
 }
@@ -14,25 +17,24 @@ footer {
 .title {
   text-align: center;
   font-weight: bold;
-  font-size: 300%;
+  font-size: 3em;
   margin: 10px;
 }
 .subtitle {
   text-align: center;
-  font-weight: bold;
-  font-size: 150%;
+  /* font-weight: bold; */
+  font-size: 1.5em;
   margin-top: 0px;
 }
-
 .gamescontainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .gamecontainer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   background-color: #333333;
   margin: 5px;
   padding: 8px;
@@ -44,17 +46,27 @@ footer {
   vertical-align: middle;
   margin: auto;
 }
+.coverimage2 {
+  width: 630px;
+  height: 500px;
+  vertical-align: middle;
+  margin: auto;
+}
+.screenshot {
+  width: 240px;
+  height: 150px;
+  vertical-align: middle;
+  margin: auto;
+}
 .gamedescription {
   width: 310px;
   padding-left: 10px;
   margin: auto;
   flex: 1 0 auto;
 }
-
 .gamename {
   margin-top: 0px;
 }
-
 .play, .playonitch, .source {
   border: none;
   border-radius: 4px;
@@ -72,7 +84,6 @@ footer {
 .source {
   background-color: #202020;
 }
-
 .linkicon {
   width: 64px;
   height: 64px;
@@ -82,7 +93,6 @@ footer {
 .nobottommargin {
   margin-bottom: 0px;
 }
-
 * {
   /* border: 1px dashed white; */
 }

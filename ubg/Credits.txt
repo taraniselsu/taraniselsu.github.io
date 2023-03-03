@@ -1,0 +1,61 @@
+
+Skybox by wwwtyro.net
+https://tools.wwwtyro.net/space-3d/index.html#animationSpeed=0.1&fov=60&nebulae=false&pointStars=true&resolution=4096&seed=77puox2fgag0&stars=true&sun=false
+
+Star Sparrow Modular Spaceship by Ebal Studios
+https://assetstore.unity.com/packages/3d/vehicles/space/star-sparrow-modular-spaceship-73167
+
+Space Stations Creator by Ebal Studios
+https://assetstore.unity.com/packages/3d/vehicles/space/space-stations-creator-134204
+
+Sci-Fi Planets & Asteroids by Ebal Studios
+https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-planets-asteroids-107001
+
+Icons from Kenney
+https://kenney.nl/assets/crosshair-pack
+https://kenney.nl/assets/game-icons
+https://kenney.nl/assets/particle-pack
+https://kenney.nl/assets/simple-space
+https://kenney.nl/assets/space-shooter-redux
+
+GUI PRO Kit - Sci-Fi by Layer Lab
+https://assetstore.unity.com/packages/2d/gui/gui-pro-kit-sci-fi-194741
+
+GUI PRO Kit - Fantasy RPG by Layer Lab
+https://assetstore.unity.com/packages/2d/gui/gui-pro-kit-fantasy-rpg-170168
+
+Simple UI by Unruly Games
+https://assetstore.unity.com/packages/2d/gui/icons/simple-ui-103969
+
+Highlight Plus by Kronnect
+https://assetstore.unity.com/packages/tools/particles-effects/highlight-plus-134149
+
+Runtime Transform Gizmos by Octamodius
+https://assetstore.unity.com/packages/tools/modeling/runtime-transform-gizmos-125537
+
+geometry3Sharp by gradiantspace / Ryan Schmidt (rms80)
+https://github.com/gradientspace/geometry3Sharp
+
+Math.NET Numerics
+https://numerics.mathdotnet.com/
+
+DOTween by Demigiant
+https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
+
+Technie Collider Creator by Triangular Pixels
+https://assetstore.unity.com/packages/tools/level-design/technie-collider-creator-62628
+
+DreamOS - Complete OS UI V1 by Michsky
+https://assetstore.unity.com/packages/tools/gui/dreamos-complete-os-ui-v1-188483
+
+ProTips - Tooltip System by ModelShark Studio
+https://assetstore.unity.com/packages/tools/gui/protips-tooltip-system-44361
+
+Rewired by Guavaman Enterprises
+https://assetstore.unity.com/packages/tools/utilities/rewired-21676
+
+UI - Builder by beffio
+https://assetstore.unity.com/packages/2d/gui/ui-builder-29757
+
+Dungeon Maker by Antipixel
+https://assetstore.unity.com/packages/tools/level-design/dungeon-maker-184902
