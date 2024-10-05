@@ -1,4 +1,5 @@
 body {
+  font-family: sans-serif;
   background-color: #222222;
   color: #dddddd;
 }
@@ -85,10 +86,12 @@ footer {
   background-color: #202020;
 }
 .linkicon {
-  width: 64px;
-  height: 64px;
-  margin-left: 5px;
-  margin-right: 5px;
+  width: 4em;
+  height: 4em;
+  margin: 0 0.5em;
+}
+.linkicon:hover {
+  background-color: gray;
 }
 .nobottommargin {
   margin-bottom: 0px;
