@@ -1,4 +1,4 @@
-Copyright 2024 Taranis Elsu
+Copyright Taranis Elsu
 
 All rights reserved
 
