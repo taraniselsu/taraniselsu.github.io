@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taranis Elsu</title>
+  <meta name="description" content="Project page for Taranis Elsu">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-slate-950 text-slate-50 font-sans text-base m-2">
+  <h1 class="text-center text-5xl font-bold my-8 sm:text-6xl">Taranis Elsu</h1>
+  <p class="text-center text-lg my-4">Welcome to the home for all the things created by me.</p>
+
+  <div class="max-w-screen-lg mx-auto">
+
+    <h2 class="text-3xl font-semibold my-8">Projects</h2>
+
+    <div class="flex flex-col bg-slate-800 my-4 sm:flex-row">
+      <div class="flex-none m-4 sm:w-1/4">
+        <img class="w-full max-w-64 mx-auto" src="images/untitledbuildinggame.png"
+          alt="Title image for Untitled Building Game: a spacecraft in orbit above a planet">
+      </div>
+      <div class="flex-auto m-4">
+        <h3 class="text-xl font-medium mb-2">Untitled Building Game</h3>
+        <p>Design your own spacecraft, airplanes, boats, and more. Explore an entire planet and the surrounding space.
+        </p>
+        <p>Features realistic Newtonian physics including aerodynamic drag, buoyancy, and orbital mechanics.</p>
+        <p class="m-2"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">solo</span></p>
+        <p class="text-red-400 my-2">This is a very early version. It is far from complete and has many bugs.</p>
+        <div class="flex flex-row flex-wrap flex-initial gap-2 my-4">
+          <a class="rounded border border-black/25 bg-[#fa5c5c] text-white px-4 py-2 hover:brightness-125"
+            href="https://taraniselsu.itch.io/untitled-building-game">Play on itch.io</a>
+        </div>
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(8em,1fr))] gap-2">
+          <img class="cursor-pointer w-full max-w-48 mx-auto hover:brightness-125"
+            src="images/untitledbuildinggame_screenshot1.png"
+            onclick="openImageOverlay('images/untitledbuildinggame_screenshot1.png')"
+            alt="Screenshot showing a spaceplane flying through the atmosphere on a planet.">
+          <img class="cursor-pointer w-full max-w-48 mx-auto hover:brightness-125"
+            src="images/untitledbuildinggame_screenshot2.png"
+            onclick="openImageOverlay('images/untitledbuildinggame_screenshot2.png')"
+            alt="Screenshot showing a boat on the surface of the water.">
+          <img class="cursor-pointer w-full max-w-48 mx-auto hover:brightness-125"
+            src="images/untitledbuildinggame_screenshot3.png"
+            onclick="openImageOverlay('images/untitledbuildinggame_screenshot3.png')"
+            alt="Screenshot showing the editor scene.">
+          <img class="cursor-pointer w-full max-w-48 mx-auto hover:brightness-125"
+            src="images/untitledbuildinggame_screenshot4.png"
+            onclick="openImageOverlay('images/untitledbuildinggame_screenshot4.png')"
+            alt="Screenshot showing the analysis scene.">
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="flex flex-col bg-slate-800 my-4 sm:flex-row">
+      <div class="flex-none m-4 sm:w-1/4">
+        <img class="w-full max-w-64 mx-auto" src="images/incrementalcity.png" alt="">
+      </div>
+      <div class="flex-auto m-4">
+        <h3 class="text-xl font-medium mb-2">Incremental City</h3>
+        <p>Oversee a growing city. Build housing and manage food production. Maximize available housing and food to
+          increase growth. Lead your people to a prosperous future!</p>
+        <p>Incremental City is an incremental game that is more active than idle. Inspired by CivClicker and similar
+          games.</p>
+        <p class="m-2"><span class="tag">HTML</span><span class="tag">Javascript</span><span class="tag">solo</span></p>
+        <p class="text-red-400 my-2">This is an early prototype with only a few features and many bugs.</p>
+        <div class="flex flex-row flex-wrap flex-initial gap-2 my-4">
+          <a class="rounded border border-black/25 bg-[#fa5c5c] text-white px-4 py-2 hover:brightness-125"
+            href="https://taraniselsu.itch.io/incremental-city">Play on itch.io</a>
+          <a class="rounded border border-black/25 bg-neutral-900 text-white px-4 py-2 hover:brightness-125"
+            href="https://github.com/taraniselsu/IncrementalCity">View source</a>
+        </div>
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(8em,1fr))] gap-2">
+          <img class="cursor-pointer w-full max-w-48 mx-auto hover:brightness-125"
+            src="images/incrementalcity_screenshot1.png"
+            onclick="openImageOverlay('images/incrementalcity_screenshot1.png')"
+            alt="Screenshot showing the game screen.">
+          <img class="cursor-pointer w-full max-w-48 mx-auto hover:brightness-125"
+            src="images/incrementalcity_screenshot2.png"
+            onclick="openImageOverlay('images/incrementalcity_screenshot2.png')"
+            alt="A second screenshot showing the game screen.">
+          <! -- Two blank elements are here to make this grid behave the same as the one above -- >
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="flex flex-col bg-slate-800 my-4 sm:flex-row">
+      <div class="flex-none m-4 sm:w-1/4">
+        <img class="w-full max-w-64 mx-auto" src="images/dualkitty.png" alt="">
+      </div>
+      <div class="flex-auto m-4">
+        <h3 class="text-xl font-medium mb-2">Dual Kitty</h3>
+        <p>Created for the Global Game Jam 2022: "Duality".</p>
+        <p>Play as a cat doing cute things, but envisioning itself as a mighty beast.</p>
+        <p class="m-2"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">team</span></p>
+        <div class="flex flex-row flex-wrap flex-initial gap-2 my-4">
+          <a class="rounded border border-black/25 bg-[#fa5c5c] text-white px-4 py-2 hover:brightness-125"
+            href="https://trensharo.itch.io/dualkitty">Play on itch.io</a>
+          <a class="rounded border border-black/25 bg-neutral-900 text-white px-4 py-2 hover:brightness-125"
+            href="https://github.com/taraniselsu/DualKitty">View source</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col bg-slate-800 my-4 sm:flex-row">
+      <div class="flex-none m-4 sm:w-1/4">
+        <img class="w-full max-w-64 mx-auto" src="images/cicadadefense.png" alt="">
+      </div>
+      <div class="flex-auto m-4">
+        <h3 class="text-xl font-medium mb-2">Cicada Defense Force</h3>
+        <p>Created for the District June Jam 2021: "Emergence".</p>
+        <p>Cut through the swarm of cicadas and thin out their overwhelming number a little.</p>
+        <p class="m-2"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">solo</span></p>
+        <div class="flex flex-row flex-wrap flex-initial gap-2 my-4">
+          <a class="rounded border border-black/25 bg-[#fa5c5c] text-white px-4 py-2 hover:brightness-125"
+            href="https://taraniselsu.itch.io/cicada-defense-force">Play on itch.io</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col bg-slate-800 my-4 sm:flex-row">
+      <div class="flex-none m-4 sm:w-1/4">
+        <img class="w-full max-w-64 mx-auto" src="images/deepabyss.png" alt="">
+      </div>
+      <div class="flex-auto m-4">
+        <h3 class="text-xl font-medium mb-2">Deep Abyss</h3>
+        <p>Created with <a href="https://zypo.itch.io/">Zypo</a> for the Ludum Dare 48 (2021) game jam: "Deeper and
+          deeper".</p>
+        <p>Find the treasure in the depths of the abyss.</p>
+        <p class="m-2"><span class="tag">Godot</span><span class="tag">GDScript</span><span class="tag">team</span></p>
+        <div class="flex flex-row flex-wrap flex-initial gap-2 my-4">
+          <a class="rounded border border-black/25 bg-[#fa5c5c] text-white px-4 py-2 hover:brightness-125"
+            href="https://taraniselsu.itch.io/deep-abyss">Play on itch.io</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col bg-slate-800 my-4 sm:flex-row">
+      <div class="flex-none m-4 sm:w-1/4">
+        <img class="w-full max-w-64 mx-auto" src="images/globaldefense.png" alt="">
+      </div>
+      <div class="flex-auto m-4">
+        <h3 class="text-xl font-medium mb-2">Global Defense</h3>
+        <p>Created for the DC Jam Summer 2020 game jam: "Going Global".</p>
+        <p>Defend the planet from asteroids with satellites.</p>
+        <p class="m-2"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">solo</span></p>
+        <div class="flex flex-row flex-wrap flex-initial gap-2 my-4">
+          <a class="rounded border border-black/25 bg-[#fa5c5c] text-white px-4 py-2 hover:brightness-125"
+            href="https://taraniselsu.itch.io/global-defense">Play on itch.io</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col bg-slate-800 my-4 sm:flex-row">
+      <div class="flex-none m-4 sm:w-1/4">
+        <img class="w-full max-w-64 mx-auto" src="images/virussimulator.png" alt="">
+      </div>
+      <div class="flex-auto m-4">
+        <h3 class="text-xl font-medium mb-2">Virus Simulator</h3>
+        <p>Created during the 2020 COVID-19 pandemic.</p>
+        <p>Watch a virus spread among people and see how it is affected by different parameters.</p>
+        <p class="m-2"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">solo</span></p>
+        <div class="flex flex-row flex-wrap flex-initial gap-2 my-4">
+          <a class="rounded border border-black/25 bg-[#fa5c5c] text-white px-4 py-2 hover:brightness-125"
+            href="https://taraniselsu.itch.io/virus-simulator">Play on itch.io</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="flex flex-col bg-slate-800 my-4 sm:flex-row">
+      <div class="flex-none m-4 sm:w-1/4">
+        <img class="w-full max-w-64 mx-auto" src="images/transportationdepartment.png" alt="">
+      </div>
+      <div class="flex-auto m-4">
+        <h3 class="text-xl font-medium mb-2">Department of Transportation</h3>
+        <p>Created for the GameDev.tv 2022 Game Jam: "Death is only the beginning"</p>
+        <p>You have been tasked with building the transport network to move souls of the damned around in the bad place.
+        </p>
+        <p class="text-red-400">Unfinished. Got as far as laying track and the train following the track.</p>
+        <p class="m-2"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">solo</span></p>
+        <div class="flex flex-row flex-wrap flex-initial gap-2 my-4">
+          <a class="rounded border border-black/25 bg-[#fa5c5c] text-white px-4 py-2 hover:brightness-125"
+            href="https://taraniselsu.itch.io/bad-place-department-of-transportation">Play on itch.io</a>
+          <a class="rounded border border-black/25 bg-neutral-900 text-white px-4 py-2 hover:brightness-125"
+            href="https://github.com/taraniselsu/TransportationDepartment">View source</a>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="flex flex-col bg-slate-800 my-4 sm:flex-row">
+      <div class="flex-none m-4 sm:w-1/4">
+        <img class="w-full max-w-64 mx-auto" src="images/nothing.png" alt="">
+      </div>
+      <div class="flex-auto m-4">
+        <h3 class="text-xl font-medium mb-2">Nothing</h3>
+        <p>Created for the Ludum Dare 45 game jam (2019): "Start with Nothing".</p>
+        <p>My first game jam. Limited interaction. You literally start with nothing. See what happens!</p>
+        <p class="m-2"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">solo</span></p>
+        <div class="flex flex-row flex-wrap flex-initial gap-2 my-4">
+          <a class="rounded border border-black/25 bg-green-800 text-white px-4 py-2 hover:brightness-125"
+            href="https://taraniselsu.github.io/LudumDare45_StartWithNothing/">Play</a>
+          <a class="rounded border border-black/25 bg-neutral-900 text-white px-4 py-2 hover:brightness-125"
+            href="https://github.com/taraniselsu/LudumDare45_StartWithNothing">View source</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col bg-slate-800 my-4 sm:flex-row">
+      <div class="flex-none m-4 sm:w-1/4">
+        <img class="w-full max-w-64 mx-auto" src="images/asteroiddodger.png" alt="">
+      </div>
+      <div class="flex-auto m-4">
+        <h3 class="text-xl font-medium mb-2">Asteroid Dodger (prototype)</h3>
+        <p>Dodge asteroids while flying between waypoints.</p>
+        <p class="m-2"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">solo</span></p>
+        <div class="flex flex-row flex-wrap flex-initial gap-2 my-4">
+          <a class="rounded border border-black/25 bg-[#fa5c5c] text-white px-4 py-2 hover:brightness-125"
+            href="https://taraniselsu.itch.io/asteroid-dodger?password=wip">Play on itch.io</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col bg-slate-800 my-4 sm:flex-row">
+      <div class="flex-none m-4 sm:w-1/4">
+        <img class="w-full max-w-64 mx-auto" src="images/prototypeboatbuilder.png" alt="">
+      </div>
+      <div class="flex-auto m-4">
+        <h3 class="text-xl font-medium mb-2">Prototype Boat Builder</h3>
+        <p>Build boats using blocks and drive them around to waypoints.</p>
+        <p class="m-2"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">solo</span></p>
+        <div class="flex flex-row flex-wrap flex-initial gap-2 my-4">
+          <a class="rounded border border-black/25 bg-[#fa5c5c] text-white px-4 py-2 hover:brightness-125"
+            href="https://taraniselsu.itch.io/prototype-boat-builder?password=it_floats">Play on itch.io</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- template - - >
+    <div class="flex flex-col bg-slate-800 my-4 sm:flex-row">
+      <div class="flex-none m-4 sm:w-1/4">
+        <img class="w-full max-w-64 mx-auto" src="image" alt="">
+      </div>
+      <div class="flex-auto m-4">
+        <h3 class="text-xl font-medium mb-2">name</h3>
+        <p>description</p>
+        <p class="m-2"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">solo</span></p>
+        <div class="flex flex-row flex-wrap flex-initial gap-2 my-4">
+          <a class="rounded border border-black/25 bg-green-800 text-white px-4 py-2 hover:brightness-125"
+            href="link">Play</a>
+          <a class="rounded border border-black/25 bg-[#fa5c5c] text-white px-4 py-2 hover:brightness-125"
+            href="link">Play on itch.io</a>
+          <a class="rounded border border-black/25 bg-neutral-900 text-white px-4 py-2 hover:brightness-125"
+            href="link">View source</a>
+        </div>
+      </div>
+    </div>
+    < ! - - template -->
+
+    <h2 class="text-3xl font-semibold my-8">Links</h2>
+
+    <div class="flex flex-row my-4 gap-2">
+      <a class="rounded border border-black/25 hover:bg-slate-500" href="https://taraniselsu.itch.io/">
+        <img class="w-16 m-1" src="images/itchio-logo-textless-white.svg"
+          alt="Icon for Itch.io, click to go to my profile"></a>
+      <a class="rounded border border-black/25 hover:bg-slate-500" href="https://github.com/taraniselsu/">
+        <img class="w-16 m-1" src="images/github-mark-white.svg" alt="Icon for Github, click to go to my profile"></a>
+    </div>
+
+  </div>
+
+  <div id="image_overlay" onclick="closeImageOverlay()"
+    class="fixed inset-1 bg-black bg-opacity-75 flex items-center justify-center cursor-pointer hidden">
+    <img src="images/untitledbuildinggame_screenshot1.png" class="max-w-full max-h-full">
+  </div>
+
+  <footer>
+    <p class="text-center mb-16">
+      <a class="text-slate-300 hover:text-slate-500" href="LICENSE.txt">Copyright Taranis Elsu</a>
+    </p>
+  </footer>
+
+  <script>
+    function openImageOverlay(image) {
+      const overlay = document.getElementById("image_overlay");
+      overlay.classList.remove("hidden");
+      overlay.getElementsByTagName("img")[0].src = image;
+    }
+    function closeImageOverlay() {
+      document.getElementById("image_overlay").classList.add("hidden");
+    }
+  </script>
+</body>
+
+</html>
